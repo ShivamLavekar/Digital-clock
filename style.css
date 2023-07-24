@@ -1,0 +1,142 @@
+@font-face {
+    font-family: digital;
+    src: url(fonts/digital-7.ttf);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: digital;
+    /* box-sizing: border-box; */
+}
+body{
+    background-image: conic-gradient(grey,black);
+}
+.clock_frame{
+    background-color: whitesmoke;
+    width: 800px;
+    height: 400px;
+    margin-left: 600px;
+    margin-top: 300px;
+    border: 5px whitesmoke;
+    /* color: grey; */
+}
+
+
+.upper{
+    height: 50%;
+    font-size: 70px;
+    display: flex;
+    /* gap: 50px; */
+    align-items: center;
+    text-align: center;
+    border: solid 4px white;
+    justify-content: space-between;
+}
+
+
+.Dt p{
+    font-size: 30px;
+}
+.M p{
+    font-size: 30px;
+}
+.Y p{
+    font-size: 30px;
+}
+.D p{
+    font-size: 30px;
+}
+
+
+
+.D span:nth-child(1){
+    position: absolute;
+}
+
+.Dt span:nth-child(1){
+    position: absolute;
+}
+
+.M span:nth-child(1){
+    position: absolute;
+}
+
+.Y span:nth-child(1){
+    position: absolute;
+}
+
+
+
+/* .upper div span{
+    position: absolute;
+    justify-content: space-evenly;
+} */
+
+.upper div span:nth-child(1){
+    color: rgba(128, 128, 128, 0.34);
+    /* position: absolute;  */
+}
+
+
+
+
+
+
+
+.lower{
+    display: flex;
+    font-size: 150px;
+    align-items: center;
+    justify-content: center;
+    border: solid 4px white;
+    height: 47%;
+}
+
+/* .lower div span{
+    position: absolute;
+    justify-content: space-evenly;
+} */
+
+.lower div span:nth-child(1){
+    color: rgba(128, 128, 128, 0.34);
+    position: absolute;
+}
+
+
+.am_pm{
+    font-size: 30px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    
+}
+
+/* .am_pm div span:nth-child(1){
+    color: rgb(128, 128, 128);
+} */
+
+
+
+/* .day{
+    position: absolute;
+} */
+
+/* .time{
+    background-color: aqua;
+} */
+
+
+.hour p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.min p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.sec p{
+    font-size: 30px;
+    text-align: center;
+}
