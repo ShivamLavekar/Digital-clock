@@ -109,6 +109,11 @@ body{
     margin-bottom: 70px;
     margin-left: 50px;
     
+    
+}
+
+.zone{
+    color: rgba(128, 128, 128, 0.34);
 }
 
 /* .am_pm div span:nth-child(1){

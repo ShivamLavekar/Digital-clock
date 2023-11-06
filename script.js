@@ -3,6 +3,7 @@ setInterval(showtime,1000);
 function showtime(){
     let time = new Date();
 	let hour = time.getHours();
+	// let hour = 2
 	let min = time.getMinutes();
 	let sec = time.getSeconds();
 	let year = time.getFullYear();
@@ -33,14 +34,16 @@ document.getElementById("s").innerHTML = sec;}
 
 
 if(hour>12){
-	// document.getElementById("PM").innerHTML = "PM";
+	document.getElementById("PM").innerHTML = "PM";
 	hour-=12
 	document.getElementById("hr").innerHTML = "0"+hour;
+	
 
 }
 else{
-	// 	
+	document.getElementById("AM").innerHTML = "AM";
 	document.getElementById("hr").innerHTML = hour;
+	
 }
 
 
